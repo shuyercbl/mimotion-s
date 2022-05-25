@@ -317,11 +317,11 @@ def push_wx(desp=""):
 
 
 # 企业微信
-def get_access_token():
-    urls = base_url + 'corpid=' + corpid + '&corpsecret=' + corpsecret
-    resp = requests.get(urls).json()
-    access_token = resp['access_token']
-    return access_token
+# def get_access_token():
+#     urls = base_url + 'corpid=' + corpid + '&corpsecret=' + corpsecret
+#     resp = requests.get(urls).json()
+#     access_token = resp['access_token']
+#     return 
 
 
 def run(msg):
